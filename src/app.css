@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:focus {
+  @apply outline-none;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-bold;
+}
+
+pre {
+  @apply overflow-auto;
+}
